@@ -1,0 +1,61 @@
+.box{
+    position: absolute;
+    top: 50%;
+    left:15%;
+    width: 70%;
+}
+
+.ques-box{
+    position: relative;
+    height: 45px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: white;
+    border: 0;
+}
+
+input[type="text"]{
+   font-size: 20px;
+   padding: 5px ;
+   border: 1px solid white;
+}
+
+input[type="text"]:focus{
+   box-shadow: 20px gray;
+   background-color: white;
+   border: 1px solid white;
+ }
+
+ .submit-btn{
+    position: relative;
+    margin-left: 2%;
+    height: 45px;
+    width: 15%;
+    border-radius: 10px;
+    background: green;
+   border: 0;
+   cursor: pointer;
+   padding: 10px;
+ }
+
+ .submit-btn-text{
+    font-size: 18px;
+    color: white;
+ }
+
+ .ans{
+   position: relative;
+   height : fit-content;
+   width: 67%;
+   padding: 10px;
+   margin-top: 30px;
+   border-radius: 10px;
+   background-color: #d8dbe3;
+   overflow: hidden;
+   left: 16%;
+ }
+
+ .loading-text{
+    color: white;
+    text-align: center;
+ }
